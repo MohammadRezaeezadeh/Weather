@@ -15,11 +15,5 @@ getlocation(address, (error, { name, lat, lon, dama } = {}) => {
     console.log('Longitude:', lon);
     console.log('Temperature:', dama, '°C');
 
-    // اگر خواستی این تابع هم فعال شه، این قسمت رو باز کن
-    // getlocationlotlon(lat, lon, dama, (error, name) => {
-    //     if (error) {
-    //         return console.log('Error:', error);
-    //     }
-    //     console.log('lat_lon_Data:', name);
-    // });
+   
 });
