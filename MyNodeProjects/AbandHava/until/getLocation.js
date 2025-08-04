@@ -19,7 +19,7 @@ const getlocation = async (address, callback) => {
       });
     }
   }  catch (error) {
-    console.log('Real error:', error.message); // 🔍 اضافه شده برای دیدن متن خطای واقعی
+    console.log('Real error:', error.message); 
     callback('Unable to connect to weather service.', undefined);
 }
 
